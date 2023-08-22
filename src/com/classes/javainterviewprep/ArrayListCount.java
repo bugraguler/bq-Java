@@ -12,28 +12,28 @@ input ["switch","tv","switch","tv","switch","tv"]
 output [switch, tv, switch1, tv1, switch2, tv2]
          */
 
-        public static void main (String[]args){
-            ArrayList<String> inputList = new ArrayList<>(Arrays.asList("switch", "tv", "switch", "tv", "switch", "tv"));
-            ArrayList<String> outputList = countDeviceNames(inputList);
-            System.out.println(outputList);
-        }
+    public static void main(String[] args) {
+        ArrayList<String> inputList = new ArrayList<>(Arrays.asList("switch", "tv", "switch", "tv", "switch", "tv"));
+        ArrayList<String> outputList = countDeviceNames(inputList);
+        System.out.println(outputList);
+    }
 
-        public static ArrayList<String> countDeviceNames (ArrayList < String > inputList) {
-            ArrayList<String> outputList = new ArrayList<>();
-            HashMap<String, Integer> wordCountMap = new HashMap<>();
+    public static ArrayList<String> countDeviceNames(ArrayList<String> inputList) {
+        ArrayList<String> outputList = new ArrayList<>();
+        HashMap<String, Integer> wordCountMap = new HashMap<>();
 
-            for (String word : inputList) {
-                if (wordCountMap.containsKey(word)) {
-                    int count = wordCountMap.get(word);
-                    outputList.add(word + count);
-                    wordCountMap.put(word, count + 1);
-                } else {
-                    outputList.add(word);
-                    wordCountMap.put(word, 1);
-                }
+        for (String word : inputList) {
+            if (wordCountMap.containsKey(word)) {
+                int count = wordCountMap.get(word);
+                outputList.add(word + count);
+                wordCountMap.put(word, count + 1);
+            } else {
+                outputList.add(word);
+                wordCountMap.put(word, 1);
             }
-
-            return outputList;
         }
+
+        return outputList;
     }
 }
+
