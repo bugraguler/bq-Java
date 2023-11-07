@@ -9,15 +9,21 @@ public class StringMethodsRegEx {
         System.out.println(str);
         System.out.println("Number of Alpha character is "+str.length());
 
+        System.out.println("************************************************");
 
         //Find the number of words in a string?
         String myString="Today is Wednesday and it is Java Class";
-        String[]word = myString.split(" ");
+        String []word=myString.split(" ");
         System.out.println(word.length);
         for (String w:word
              ) {
             System.out.println(w);
         }
+
+
+
+
+
 
 
     }
