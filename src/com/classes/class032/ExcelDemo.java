@@ -14,7 +14,7 @@ public class ExcelDemo {
         XSSFWorkbook xssfWorkbook= new XSSFWorkbook(fileInputStream);
         Sheet sheet= xssfWorkbook.getSheet("Sheet1");
         Row row=sheet.getRow(0);
-        System.out.println(row.getCell(0));
+        System.out.println(row.getCell(1));
 
 
     }

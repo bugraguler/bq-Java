@@ -4,9 +4,9 @@ public class ExceptionDemo1 {
     public static void main(String[] args) {
         try{
             //System.out.println(10/0);
+            int []arr= new int[-4];
             String name=null;
             name.length();
-            int []arr= new int[-4];
             String strArr[]=new String[2];
             strArr[5]="Issues";
         }catch(ArithmeticException arithmeticException){

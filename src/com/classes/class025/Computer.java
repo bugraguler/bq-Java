@@ -24,7 +24,7 @@ class Dell extends Computer {
     }
 
     void setBrand() {
-        System.out.println("brand is "+brand +" and the ram is "+ram);
+        System.out.println("brand is " + brand + " and the ram is " + ram);
     }
 }
 
@@ -36,14 +36,14 @@ class Toshiba extends Computer {
     }
 
     void setBrand() {
-        System.out.println("brand is "+brand +" and the ram is "+ram);
+        System.out.println("brand is " + brand + " and the ram is " + ram);
     }
 }
 
 class Test {
     public static void main(String[] args) {
-        Computer[] computers = {new Toshiba("Toshiba",16), new Dell("Dell",8)};
-        for (Computer computer:computers) {
+        Computer[] computers = {new Toshiba("Toshiba", 16), new Dell("Dell", 8)};
+        for (Computer computer : computers) {
             computer.setBrand();
             computer.hasOffice();
         }

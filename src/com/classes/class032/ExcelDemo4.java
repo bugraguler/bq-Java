@@ -10,7 +10,7 @@ import java.io.IOException;
 //we do it to create an excel file in pointed place
 public class ExcelDemo4 {
     public static void main(String[] args) throws IOException {
-        String path = "C:\\Users\\pcbel\\OneDrive\\Masaüstü\\SYNTAX\\ExcelDemos\\excelDeneme.xlsx";
+        String path = "C:\\Users\\pcbel\\OneDrive\\Masaüstü\\SYNTAX\\ExcelDemos\\newly.xlsx";
         FileOutputStream fileOutputStream= new FileOutputStream(path);
         XSSFWorkbook xssfWorkbook=new XSSFWorkbook();
         Sheet sheet=xssfWorkbook.createSheet("Sheet2");

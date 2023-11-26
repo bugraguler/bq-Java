@@ -4,7 +4,7 @@ public class ExceptionDemo {
     public static void main(String[] args) {
 
         System.out.println("Opening the application");
-        System.out.println("Displaying the welcomw message");
+        System.out.println("Displaying the welcome message");
         System.out.println("User is trying to use feature 1");
         System.out.println("User is trying to use feature 2");
         try {

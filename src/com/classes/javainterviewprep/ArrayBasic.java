@@ -5,7 +5,9 @@ public class ArrayBasic {
         int[][] array = {
                 {2332,99,70},
                 {1236,66},
-                {55,35,35,24}};
+                {55,35,35,24},
+                {21}
+        };
         System.out.println(array.length);
         for (int i = 0; i < array.length; i++) {
             for (int j = 0; j < array[i].length; j++) {

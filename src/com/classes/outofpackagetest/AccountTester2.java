@@ -1,6 +1,6 @@
-/*package com.classes.outofpackagetest;
+package com.classes.outofpackagetest;
 
-import com.classes.syntaxoops2.Account;
+/*import com.classes.syntaxoops2.Account;
 
 public class AccountTester2 {
     public static void main(String[] args) {
@@ -16,3 +16,11 @@ public class AccountTester2 {
     }
 }
 */
+
+import com.classes.syntaxoops2.TaskForAccessModifiers;
+
+public class AccountTester2 {
+    public static void main(String[] args) {
+        TaskForAccessModifiers taskForAccessModifiers= new TaskForAccessModifiers();
+    }
+}
