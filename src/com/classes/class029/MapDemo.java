@@ -18,6 +18,16 @@ public class MapDemo {
         groceries.putAll(fruits);
         System.out.println(groceries);
 
+        /*
+
+        Map<String,Integer> fruits                  = new HashMap<>();
+        List<String> coursis                        = new LinkedList<>();
+        HashSet<String> fruits                      = new HashSet<>();
+        Iterator<String> iterator                   = courses.iterator();
+         List<Map<String, String>> employeNames     = dataTable.asMaps();
+
+         */
+
 
 
 

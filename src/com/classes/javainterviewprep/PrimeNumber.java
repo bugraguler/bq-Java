@@ -1,8 +1,8 @@
 package com.classes.javainterviewprep;
 
 public class PrimeNumber {
-    public static void isNumberPrime(int num) {
-        int n = num;
+    public static void isNumberPrime(int n) {
+
         boolean isPrime = true;
 
         if (n > 1) {
